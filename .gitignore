@@ -39,3 +39,5 @@ node_modules
 .tern-port
 
 ./docs/assets/
+/.vs/slnx.sqlite
+/.vs/react-materialize/v15/.suo

@@ -71,11 +71,7 @@ class Modal extends Component {
       ? ReactDOM.createPortal(
           <div {...other} className={classes} id={this.modalID}>
             <div className="modal-content">
-              <h4>{header}</h4>
               {children}
-            </div>
-            <div className="modal-footer">
-              {React.Children.toArray(actions)}
             </div>
           </div>,
           this.modalRoot
